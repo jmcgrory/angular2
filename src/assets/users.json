@@ -1,0 +1,23 @@
+{ "users": [
+    {
+        "id": 34,
+        "username": "spiderman",
+        "roles": ["admin", "user"],
+        "superuser": false
+    }, {
+        "id": 44,
+        "username": "mr garrison",
+        "roles": ["admin"],
+        "superuser": true
+    }, {
+        "id": 54,
+        "username": "king charles",
+        "roles": ["admin", "user"],
+        "superuser": false
+    }, {
+        "id": 64,
+        "username": "charlie xcx",
+        "roles": ["user"],
+        "superuser": true
+    }]
+}

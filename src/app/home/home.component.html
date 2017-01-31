@@ -13,6 +13,8 @@
   <div>
     <h4>Local State</h4>
 
+      <p><strong>{{ this.date | date:'medium' }}</strong></p>
+
     <form (ngSubmit)="submitState(localState.value)" autocomplete="off">
 
       <input

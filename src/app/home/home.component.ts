@@ -24,11 +24,14 @@ import { XLargeDirective } from './x-large';
 export class HomeComponent implements OnInit {
   // Set our default values
   public localState = { value: '' };
+  public date;
   // TypeScript public modifiers
   constructor(
     public appState: AppState,
     public title: Title
-  ) {}
+  ) {
+    setInterval(() => this.date = new Date(), 1000);
+  }
 
   public ngOnInit() {
     console.log('hello `Home` component');
